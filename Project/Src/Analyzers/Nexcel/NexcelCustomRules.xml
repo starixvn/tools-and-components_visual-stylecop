@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<SourceAnalyzer Name="Extensions">
+  <Properties>
+    <StringProperty Name="SP2100_Limit" DefaultValue="160" FriendlyName="None" Description="None" />
+    <StringProperty Name="SP2101_Limit" DefaultValue="50" FriendlyName="None" Description="None" />
+    <StringProperty Name="SP2102_Limit" DefaultValue="80" FriendlyName="None" Description="None" />
+    <StringProperty Name="SP2103_Limit" DefaultValue="2000" FriendlyName="None" Description="None" />
+  </Properties>
+  <Description>
+
+    These custom rules provide extensions to the ones provided with StyleCop.
+
+  </Description>
+
+  <Rules>
+
+    <Rule Name="PrivateFieldUnderscorePrefix" CheckId="EX1001">
+
+      <Context>Private Field should be prefixed by underscore.</Context>
+
+      <Description>Private Field are easier to distinguish when prefixed with an underscore.</Description>
+
+    </Rule>
+    <Rule Name="ClassMustBeDocumented" CheckId="EX1002">
+
+      <Context>Class must be documented.</Context>
+
+      <Description>Class must be documented.</Description>
+
+    </Rule>
+    <Rule Name="MethodMustBeDocumented" CheckId="EX1003">
+
+      <Context>Method must be documented.</Context>
+
+      <Description>Method must be documented.</Description>
+
+    </Rule>
+    <Rule Name="CodeLineMustNotBeLongerThan" CheckId="SP2100">
+
+      <Context>Code line must be no longer than {0} characters (now {1}).</Context>
+
+      <Description>See StyleCop+ tab for managing this rule.</Description>
+      
+    </Rule>
+    <Rule Name="MethodMustNotContainMoreLinesThan" CheckId="SP2101">
+
+      <Context>Method body must not contain more than {0} code lines (now {1}).</Context>
+
+      <Description>See StyleCop+ tab for managing this rule.</Description>
+
+    </Rule>
+    <Rule Name="PropertyMustNotContainMoreLinesThan" CheckId="SP2102">
+
+      <Context>Property body must not contain more than {0} code lines (now {1}).</Context>
+
+      <Description>See StyleCop+ tab for managing this rule.</Description>
+
+    </Rule>
+    <Rule Name="FileMustNotContainMoreLinesThan" CheckId="SP2103">
+
+      <Context>Source file must not contain more than {0} code lines (now {1}).</Context>
+
+      <Description>See StyleCop+ tab for managing this rule.</Description>
+      
+    </Rule>
+  </Rules>
+
+</SourceAnalyzer>

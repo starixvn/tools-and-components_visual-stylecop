@@ -79,6 +79,25 @@
     <Compile Include="LayoutRules.cs" />
     <Compile Include="MaintainabilityRules.cs" />
     <Compile Include="NamingRules.cs" />
+    <Compile Include="Nexcel\CustomRules.cs" />
+    <Compile Include="Nexcel\CustomRulesResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomRulesResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Nexcel\Helper\CodeHelper.cs" />
+    <Compile Include="Nexcel\NexcelCustomRules.cs" />
+    <Compile Include="Nexcel\NexcelRules\CustomRule.cs" />
+    <Compile Include="Nexcel\NexcelRules\ElementRule.cs" />
+    <Compile Include="Nexcel\NexcelRules\EX1001.cs" />
+    <Compile Include="Nexcel\NexcelRules\EX1002.cs" />
+    <Compile Include="Nexcel\NexcelRules\EX1003.cs" />
+    <Compile Include="Nexcel\NexcelRules\PlainTextRule.cs" />
+    <Compile Include="Nexcel\NexcelRules\RuleType.cs" />
+    <Compile Include="Nexcel\NexcelRules\SP2100.cs" />
+    <Compile Include="Nexcel\NexcelRules\SP2101.cs" />
+    <Compile Include="Nexcel\NexcelRules\SP2102.cs" />
+    <Compile Include="Nexcel\NexcelRules\SP2103.cs" />
     <Compile Include="OrderingRules.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CodeStrings.Designer.cs">
@@ -150,6 +169,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CodeStrings.de-DE.resx">
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nexcel\CustomRulesResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CustomRulesResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="ValidPrefixes.resx">
       <DependentUpon>ValidPrefixes.cs</DependentUpon>
@@ -243,6 +266,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Nexcel\NexcelCustomRules.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
