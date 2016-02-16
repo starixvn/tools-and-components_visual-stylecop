@@ -61,33 +61,6 @@ namespace StyleCop.CSharp.Nexcel {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Private Field are easier to distinguish when prefixed with an underscore..
-        /// </summary>
-        internal static string DescriptionEX1001 {
-            get {
-                return ResourceManager.GetString("DescriptionEX1001", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Class must have the document.
-        /// </summary>
-        internal static string DescriptionEX1002 {
-            get {
-                return ResourceManager.GetString("DescriptionEX1002", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Method must have the document.
-        /// </summary>
-        internal static string DescriptionEX1003 {
-            get {
-                return ResourceManager.GetString("DescriptionEX1003", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Validates that code line is not longer than specified characters count..
         /// </summary>
         internal static string DescriptionSP2100 {

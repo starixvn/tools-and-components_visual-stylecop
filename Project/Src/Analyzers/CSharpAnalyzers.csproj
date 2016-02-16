@@ -89,9 +89,6 @@
     <Compile Include="Nexcel\NexcelCustomRules.cs" />
     <Compile Include="Nexcel\NexcelRules\CustomRule.cs" />
     <Compile Include="Nexcel\NexcelRules\ElementRule.cs" />
-    <Compile Include="Nexcel\NexcelRules\EX1001.cs" />
-    <Compile Include="Nexcel\NexcelRules\EX1002.cs" />
-    <Compile Include="Nexcel\NexcelRules\EX1003.cs" />
     <Compile Include="Nexcel\NexcelRules\PlainTextRule.cs" />
     <Compile Include="Nexcel\NexcelRules\RuleType.cs" />
     <Compile Include="Nexcel\NexcelRules\SP2100.cs" />

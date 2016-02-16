@@ -117,15 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DescriptionEX1001" xml:space="preserve">
-    <value>Private Field are easier to distinguish when prefixed with an underscore.</value>
-  </data>
-  <data name="DescriptionEX1002" xml:space="preserve">
-    <value>Class must have the document</value>
-  </data>
-  <data name="DescriptionEX1003" xml:space="preserve">
-    <value>Method must have the document</value>
-  </data>
   <data name="DescriptionSP2100" xml:space="preserve">
     <value>Validates that code line is not longer than specified characters count.</value>
   </data>
