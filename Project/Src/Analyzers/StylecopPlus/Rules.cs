@@ -1,16 +1,6 @@
-﻿// --------------------------------------------------------------------------
-// <copyright file="NexcelRulesChecking.cs" company="Nexcel Solutions Vietnam">
-// Copyright (c) Nexcel Solutions Vietnam. All rights reserved.
-// </copyright>
-// --------------------------------------------------------------------------
-// <history>
-//   <change who="Ricky.Nguyen" date="2013.7.4">Created</change>
-// </history>
-
-
-namespace StyleCop.CSharp.Nexcel
+﻿namespace StyleCop.CSharp.StylecopPlus
 {
-    using StyleCop.CSharp.Nexcel.NexcelRules;
+    using StyleCop.CSharp.StylecopPlus;
     using System.Collections.Generic;
     using System.IO;
 
@@ -18,13 +8,13 @@ namespace StyleCop.CSharp.Nexcel
     /// TODO: Update summary.
     /// </summary>
     [SourceAnalyzer(typeof(CsParser))]
-    public class NexcelCustomRules : SourceAnalyzer
+    public class Rules : SourceAnalyzer
     {
         #region Rules
 
         private static Dictionary<RuleType, CustomRule> _rules;
 
-        static NexcelCustomRules()
+        static Rules()
         {
             _rules = new Dictionary<RuleType, CustomRule>();
 
@@ -103,7 +93,7 @@ namespace StyleCop.CSharp.Nexcel
 
             if (csdocument.RootElement != null
                 && !csdocument.RootElement.Generated)
-            {                
+            {
                 foreach (var rule in _rules)
                 {
                     if (rule.Value is PlainTextRule)

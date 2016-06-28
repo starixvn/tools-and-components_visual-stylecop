@@ -1,4 +1,4 @@
-﻿namespace StyleCop.CSharp.Nexcel.NexcelRules
+﻿namespace StyleCop.CSharp.StylecopPlus
 {
 	/// <summary>
 	/// Enumerates all rules used in add-in.

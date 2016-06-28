@@ -1,4 +1,4 @@
-﻿namespace StyleCop.CSharp.Nexcel.NexcelRules
+﻿namespace StyleCop.CSharp.StylecopPlus
 {
     /// <summary>
     /// SP2102 custom rule.
@@ -13,7 +13,7 @@
                 RuleType.PropertyMustNotContainMoreLinesThan,
                 "SP2102",
                 "SP2102_Limit",
-                CustomRulesResources.DescriptionSP2102)
+                Resources.DescriptionSP2102)
         {
             Limit = 50;
         }

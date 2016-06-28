@@ -1,7 +1,8 @@
-﻿using System;
+﻿using StyleCop.CSharp.StylecopPlus.Helper;
+using System;
 using System.Collections.Generic;
-using StyleCop.CSharp.Nexcel.Helper;
-namespace StyleCop.CSharp.Nexcel.NexcelRules
+
+namespace StyleCop.CSharp.StylecopPlus
 {
     /// <summary>
     /// SP2100 custom rule.
@@ -17,7 +18,7 @@ namespace StyleCop.CSharp.Nexcel.NexcelRules
                 RuleType.CodeLineMustNotBeLongerThan,
                 "SP2100",
                 "SP2100_Limit",
-                CustomRulesResources.DescriptionSP2100)
+                Resources.DescriptionSP2100)
         {
             Limit = MaxCharacterInLine;
         }

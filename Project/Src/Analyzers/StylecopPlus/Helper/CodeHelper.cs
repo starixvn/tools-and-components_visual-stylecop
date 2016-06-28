@@ -1,17 +1,11 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="CodeHelper.cs" company="Microsoft">
-// TODO: Update copyright text.
-// </copyright>
-// -----------------------------------------------------------------------
-
-namespace StyleCop.CSharp.Nexcel.Helper
+﻿namespace StyleCop.CSharp.StylecopPlus.Helper
 {
+    using StyleCop;
+    using StyleCop.CSharp;
     using System;
     using System.Collections.Generic;
     using System.Text;
     using System.Xml;
-    using StyleCop;
-    using StyleCop.CSharp;
     using Attribute = StyleCop.CSharp.Attribute;
 
     /// <summary>

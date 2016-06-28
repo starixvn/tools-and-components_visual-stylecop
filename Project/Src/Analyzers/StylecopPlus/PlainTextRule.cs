@@ -1,10 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="PlainTextRule.cs" company="Microsoft">
-// TODO: Update copyright text.
-// </copyright>
-// -----------------------------------------------------------------------
-
-namespace StyleCop.CSharp.Nexcel.NexcelRules
+﻿namespace StyleCop.CSharp.StylecopPlus
 {
 
     /// <summary>

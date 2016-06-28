@@ -1,5 +1,4 @@
-﻿using StyleCop.CSharp.Nexcel.Helper;
-namespace StyleCop.CSharp.Nexcel.NexcelRules
+﻿namespace StyleCop.CSharp.StylecopPlus
 {
     /// <summary>
     /// SP2103 custom rule.
@@ -14,7 +13,7 @@ namespace StyleCop.CSharp.Nexcel.NexcelRules
                 RuleType.FileMustNotContainMoreLinesThan,
                 "SP2103",
                 "SP2103_Limit",
-                CustomRulesResources.DescriptionSP2103)
+                Resources.DescriptionSP2103)
         {
             Limit = 2000;
         }
